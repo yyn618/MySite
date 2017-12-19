@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text1 {
+    margin-left: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    color: #525252;
+}
+
+.text2 {
+    margin-left: 200px;
+    font-family: inherit;
+    font-size: 18px;
+    color: #4eb5e1;
+}
+
+.text3 {
+    font-family: cursive;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.text4 {
+    font-family: cursive;
+    font-size: 18px;
+    color: #96b82b;
+    border: 2px solid #96b82b;
+}
+
+.text5 {
+    font-family: cursive;
+    font-size: 18px;
+    color: #525252;
+}
+
+.kuang {
+    border: 2px solid #4eb5e1;
+}
