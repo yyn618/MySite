@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(imgs/13.png); background-repeat: no-repeat
+/*    background: url(imgs/13.png); background-repeat: no-repeat*/
 }
 
 .text1 {
@@ -42,12 +42,12 @@ body {
 }
 
 #nav {
-  width: inherit;
+  width: inherit; height: 850px
 }
 
 #leftNav {
 /*    text-align: center;*/
-    position: relative;
+    position: ab;
     height: 120px;
 }
 
@@ -268,7 +268,7 @@ body {
 
 #WWO {
     position: relative;
-    top: 80px;
+    top: -40px;
     font-family:sans-serif;
     letter-spacing:10px;
     font-size: 45px;
@@ -277,7 +277,7 @@ body {
 
 #offImg {
     position: relative;
-    top:180PX;
+    top:60PX;
 
 }
 
@@ -452,4 +452,19 @@ body {
 
 #total {
     text-align: center;
+}
+
+#TopImg {
+    text-align: center
+}
+
+#topW {
+    position:relative;
+    top: -850px;
+    width: inherit;
+}
+
+#img22 {
+    position: relative;
+    top: -15px
 }
