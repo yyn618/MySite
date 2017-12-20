@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(imgs/13.png); background-repeat: no-repeat
+/*    background: url(imgs/13.png); background-repeat: no-repeat*/
 }
 
 .text1 {
@@ -194,4 +194,65 @@ body {
     border: 0;
     font-size: 20px;
     border: 0
+}
+
+#theme {
+    width: inherit;
+    height: 765px;
+    text-align: center;
+}
+
+#themeImg {
+    position: relative;
+    display: inline-block;
+/*    top: 50%;*/
+    transform: translate(0,30%)
+}
+
+#themeText {
+    color:aliceblue;
+    display:block;
+/*    top: 60%*/
+    transform: translate(0,350%);
+
+}
+
+#BrowseDevices {
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    background: white;
+    color: #3892b6;
+    font-family: cursive;
+    font-size: 18px;
+    border:5px solid #3892b6
+}
+
+#themeBtn {
+    display: block;
+    transform: translate(0,400%)
+}
+
+#BrowseDevelopers {
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    background: white;
+    color: #96b82b;
+    font-family: cursive;
+    font-size: 18px;
+    border:5px solid #96b82b
+}
+
+#browseDevelopers {
+    font-size: 20px
+}
+
+#back {
+    display:inline-block;
+
+}
+
+#backC {
+    text-align: center
 }
