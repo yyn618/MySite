@@ -288,10 +288,9 @@ body {
 #News {
     position: relative;
     width: inherit;
-    height: 560px;
-    top:-28px;
+    height: 400px;
+    top:40px;
     text-align: center;
-    background: #fafafa;
 }
 
 #newsText {
@@ -333,6 +332,9 @@ body {
 
 
 #news1TextBlue {
+
+    position: relative;
+    text-align: left;
     color: #4eb5e1;
     font-size: 15px;
     font-family:sans-serif
@@ -343,7 +345,7 @@ body {
     font-size: 15px;
     font-family:sans-serif;
     text-align: left;
-    left:14px
+    left: 1px
 }
 
 #navText {
@@ -366,8 +368,9 @@ body {
     position: relative;
     transform: translate(0,100%);
     color: #676767;
-    font-size: 15px;
-    font-family:sans-serif
+    font-family:sans-serif;
+    text-align: left;
+    left: 20px
 }
 
 #hr {
@@ -383,8 +386,66 @@ body {
 }
 
 #news1TextBlue1 {
-
+    position: relative;
+    text-align: left;
     color: #4eb5e1;
     font-size: 15px;
     font-family:sans-serif
+}
+
+#shareText {
+    position: relative;
+    top: 150px;
+    font-size: 500px;
+    text-align: left;
+    color: #cadb96
+}
+
+#share {
+    background: #f8f8f8;
+    text-align: center;
+    height: 800px
+}
+
+#shareImg {
+    position: relative;
+    top: -700px;
+}
+
+#totalText {
+    text-align: center;
+    height: 250px;
+    position: relative;
+    top: 50%;
+    transform: translate(0,50%);
+    font-size: 45px;
+    color: #118dc0;
+}
+
+#news1Text68 {
+
+    position: relative;
+    transform: translate(0,30%);
+    color: #676767;
+    font-family:sans-serif;
+    text-align: left;
+    left: 20px
+}
+
+#news1Text69 {
+    position: relative;
+    transform: translate(0,-20%);
+    color: #676767;
+    font-family:sans-serif;
+    text-align: left;
+    left: 20px
+}
+
+#news1TextBlue2 {
+    position: relative;
+    text-align: left;
+    color: #4eb5e1;
+    font-size: 15px;
+    font-family:sans-serif;
+    top: 25px
 }
