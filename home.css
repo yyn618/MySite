@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-/*    background: url(imgs/13.png); background-repeat: no-repeat*/
+    background: url(imgs/13.png); background-repeat: no-repeat
 }
 
 .text1 {
@@ -160,20 +160,20 @@ body {
 
 
 
-#navText {
+#new1Text2 {
     color: #676767;
-    width: 125px;
-    border: 0;
+    width: 150px;
     font-size: 20px;
-    border: 0
 }
 
 #navtext1 {
     width: 92px;
     border: 0;
-    color: #676767;
+    color: #4eb5e1;
     font-size: 22px;
-    text-align: left
+    text-align: left;
+    position: relative;
+    top:-1px;
 }
 
 
@@ -230,7 +230,7 @@ body {
 
 #themeBtn {
     display: block;
-    transform: translate(0,400%)
+    transform: translate(0,290%)
 }
 
 #BrowseDevelopers {
@@ -255,4 +255,123 @@ body {
 
 #backC {
     text-align: center
+}
+
+#offer {
+    position: relative;
+    width: inherit;
+    height: 560px;
+    top:-28px;
+    text-align: center;
+    background: #fafafa;
+}
+
+#WWO {
+    position: relative;
+    top: 80px;
+    font-family:sans-serif;
+    letter-spacing:10px;
+    font-size: 45px;
+    color:#585858
+}
+
+#offImg {
+    position: relative;
+    top:180PX;
+
+}
+
+#offImge {
+    text-align: center
+}
+
+#News {
+    position: relative;
+    width: inherit;
+    height: 560px;
+    top:-28px;
+    text-align: center;
+    background: #fafafa;
+}
+
+#newsText {
+    height:500px;
+}
+
+#news1Text {
+    font-size: 25px;
+    font-family:inherit
+}
+
+#news1btn {
+    background: #96b82b;
+}
+
+#new1Text1 {
+    color: aliceblue;
+    width: 150px;
+    font-size: 20px;
+    border: 0;
+}
+
+#new2Text1 {
+
+    color:  aliceblue;
+    width: 120px;
+    font-size: 20px;
+
+    border: 0;
+}
+
+#new2Text2 {
+
+    color: #676767;
+    width: 120px;
+    font-size: 20px;
+}
+
+
+
+#news1TextBlue {
+    color: #4eb5e1;
+    font-size: 15px;
+    font-family:sans-serif
+}
+#news1TextBlack {
+    position: relative;
+    color: #676767;
+    font-size: 15px;
+    font-family:sans-serif;
+    text-align: left;
+    left:14px
+}
+
+#navText {
+
+    color: #676767;
+    width: 150px;
+    border: 0;
+    font-size: 20px;
+    border: 0
+
+}
+
+#new111 {
+
+    position: relative;
+    top: 50px;
+}
+
+#news1Text67 {
+    position: relative;
+    transform: translate(0,100%);
+    color: #676767;
+    font-size: 15px;
+    font-family:sans-serif
+}
+
+#hr {
+    size:6px;
+    color: aquamarine
+
 }
