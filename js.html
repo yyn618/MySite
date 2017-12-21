@@ -5,14 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/js/bootstrap.js"></script>
+      <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 </head>
 
 <body>
-<!--
+
+    <!--
 
     <button type="button" class="btn btn-default" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
   Popover on 左侧
@@ -20,14 +23,14 @@
     <a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">可消失的弹出框</a>
 -->
     <!-- Button trigger modal -->
-<!--
+    <!--
     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
   Launch demo modal
 </button>
 -->
 
     <!-- Modal -->
-<!--
+    <!--
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -54,8 +57,8 @@
         </ol>
 -->
 
-        <!-- Wrapper for slides -->
-<!--
+    <!-- Wrapper for slides -->
+    <!--
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="..." alt="...">
@@ -73,8 +76,8 @@
         </div>
 -->
 
-        <!-- Controls -->
-<!--
+    <!-- Controls -->
+    <!--
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -85,7 +88,8 @@
   </a>
     </div>
 -->
-         <div id='picbox' class="row">
+<!--
+    <div id='picbox' class="row">
         <div id='minpic' class="col-xs-6 col-md-3">
             <a href="#" class="thumbnail">
                 <img id="img" src="imgs/11.png" alt="...">
@@ -93,42 +97,142 @@
             </a>
         </div>
     </div>
+-->
+
+<!--
+    <body style="padding: 16px">
+        <div class="btn btn-primary" onclick="wxt()">dianwo</div>
+        <h1 id="nin">dian<span id="cishu"></span>ci</h1>
+    </body>
+-->
+<!--
+  <div id="hezi"  style="width: 300px;height: 300px;background: #ccc;text-align: center;padding: 12px; cursor:pointer">
+      <h1 id="wenzi">Example</h1>
+  </div>
+  <i class="fa fa-automobile"></i>
+-->
+  <!--
+<div class="btn btn-danger" >C</div>
+<img id="anniu" src="imgs/13.png"/>
+<div  id="A" style="height: 300px;background: #ccc">AAA</div>
+<div id="B" style="height: 400px;background: #ddd">BBB</div>
+<div id="C" style="height: 500px;background: #eee">CCC</div>
+<div id="D" style="height: 600px;background: #fff">DDD</div>
+<div id="E" style="height: 700px;background: #aaa">EEE</div>
+-->
+<!--   <img id="LingDBtn" src="imgs/lingD.png">-->
+<h1 id="tmr">0</h1>
 </body>
+
 <script>
-//    $(function() {
-//        $('[data-t
-//            oggle = "popover"]
-//        ').popover()
-//    })
-//     $(function() {
-//        $('[data-t
-//            oggle = "popover"]
-//        ').popover()
-//    })
-var yi={
-    src:"imgs/1.png",
-    wenzi:"1",
-}
-var san={
-    src:"imgs/3.png",
-    wenzi:"3",
-}
-    var jihe = [yi,san];
-//$("#picbox").append($("#minpic").clone());
-//$("#minpic").clone().appendTo($("#picbox"));
-function fuzhi(shuju){
-    var fuben= $("#minpic").clone(); //给克隆对象取外号
-    fuben.find("#wenzi").html(shuju.wenzi); //在克隆对象找文字并修改
-    fuben.find("#img").attr("src",shuju.src);
-    fuben.find("#wenzi").css({color:"red"});
-    fuben.appendTo($("#picbox")); //吧克隆对象添加到BOX
-//$("#minpic").clone().find("#wenzi").html("yahoo!").appendTo($("#picbox"));
+    for (var i = 0;i < 100; i++){
+        var fuzhi = $("#tmr").clone();
+        fuzhi.css({
+            "font-size": "48px",
+            left: i * 5 + "px",
+            top: Math.sin(i * 10) * 100 + "px"
+        });
+        fuzhi.appendTo($("body"));
     }
-//    fuzhi(yi);
-//    fuzhi(san);
-    for(var i=0;i<2;i++){
-        fuzhi(jihe[i]);
-    }
+//    $("#LingDBtn").hover(function(){
+//        $("#LingDBtn").attr("src","imgs/LingD1.png");
+//    },function(){
+//        $("#LingDBtn").attr("src","imgs/LingD.png");
+//    });
+//     $("#LingDBtn").mousedown(function(){
+//        $("#LingDBtn").attr("src","imgs/LingD2.png");
+//    });
+//    $("#LingDBtn").mouseup(function(){
+//        $("#LingDBtn").attr("src","imgs/LingD.png");
+//    });
+//    function huaru(){
+//        $("#wenzi").attr("class","animated 1 wobble");
+//        $("#hezi").css({
+//            "box-shadow": "0 0 18px #888",
+//        });
+//    };
+//
+//    function huachu(){
+//        $("#wenzi").attr("class","");
+//        $("#hezi").css({
+//            "box-shadow": "none",
+//        });
+//    };
+//    $("#hezi").hover(huaru,huachu);
+
+//    function huaru(){
+//        $("#anniu").css(
+//        {
+////            background: "red",
+//            filter: "blur(50px)",
+//        })
+//    };
+//    function huachu(){
+//        $("#anniu").css(
+//        {
+//            filter: "blur(0px)",
+//        })
+//    };
+//    $("#anniu").hover(huaru,huachu);
+//    $("#anniu").hover(function aa(){
+////        alert("hanshu!");
+//        $("#anniu").css({background:"green"})
+//    });
+//    function toc(){
+//        $("#C").scroll();
+//    }
+//    function wxt() {
+//        if ($("#nin").css("display") == "none") {
+//            $("#nin").show(1000);
+//        } else {
+//            $("#nin").hide(1000);
+//        }
+//    }
+    //         $("#nin").hide(3000);
+//    }
+    //    $("#nin").hide(3000);
+    //    var ci=0;
+    //    function wxt(){
+    //        $("#nin").show(1000);
+    //        ci++;
+    //        $("#cishu").html(ci);
+    //    }
+    //    $(function() {
+    //        $('[data-t
+    //            oggle = "popover"]
+    //        ').popover()
+    //    })
+    //     $(function() {
+    //        $('[data-t
+    //            oggle = "popover"]
+    //        ').popover()
+    //    })
+//    var yi = {
+//        src: "imgs/1.png",
+//        wenzi: "1",
+//    }
+//    var san = {
+//        src: "imgs/3.png",
+//        wenzi: "3",
+//    }
+//    var jihe = [yi, san];
+    //$("#picbox").append($("#minpic").clone());
+    //$("#minpic").clone().appendTo($("#picbox"));
+//    function fuzhi(shuju) {
+//        var fuben = $("#minpic").clone(); //给克隆对象取外号
+//        fuben.find("#wenzi").html(shuju.wenzi); //在克隆对象找文字并修改
+//        fuben.find("#img").attr("src", shuju.src);
+//        fuben.find("#wenzi").css({
+//            color: "red"
+//        });
+//        fuben.appendTo($("#picbox")); //吧克隆对象添加到BOX
+        //$("#minpic").clone().find("#wenzi").html("yahoo!").appendTo($("#picbox"));
+//    }
+    //    fuzhi(yi);
+    //    fuzhi(san);
+//    for (var i = 0; i < 2; i++) {
+//        fuzhi(jihe[i]);
+//    }
 </script>
 
 </html>

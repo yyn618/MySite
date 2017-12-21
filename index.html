@@ -1,67 +1,8 @@
-<!--
-<!DOCTYPY html>
-<html>
-
-<head>
-    <title>Yn</title>
-</head>
-<style>
-    .s {
-        background: #bc8484;
-        width: 100px;
-        height: 150px;
-        display: inline-block;
-    }
-
-    #b {
-        background: #bc8484;
-        width: 100px;
-        height: 150px;
-        display: inline-block;
-    }
-
-    .y {
-        background: #acacac;
-        width: 300px;
-        height: 500px;
-        text-align: center;
-        display: inline-block;
-    }
-
-    div {
-        border: 2px solid #c7c7ff;
-    }
-
-</style>
-
-<body style="margin: 0">
-    <h1 style="text-align: center">hello again!</h1>
-    <div style="text-align: center;background: #e6e6e6">
-        <div class="y">
-            <div id="b">
-                <div class="s"></div>
-            </div>
-        </div>
-    </div>
-    <input type="checkbox" />
-    <img src="imgs/889342.jpg" style="width:200px;height:120px" />
-    <style>
-        ol li{
-            color: aqua;
-        }
-    </style>
-    <ol>
-        <li>1</li>
-        <li>1</li>
-    </ol>
-</body>
-
-</html>
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta name="author" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="xining">
@@ -71,38 +12,43 @@
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 </head>
 
-
 <body>
+
     <div id="nav" class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-3" id="leftNav">
-            <img class="img11" src="imgs/11.png" />
-        </div>
-        <div class="col-md-7" id="midNav">
-            <form id="search" class="navbar-form navbar-right">
-                <div class="form-group">
-                    <span id="souSuo" class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    <input id="input" type="text" class="form-control" placeholder="Search Here." />
-                </div>
-                <button id="register" type="submit" class="btn btn-default"><b>Register</b></button>
-                <button id="donate" type="submit" class="btn btn-default"><b>Donate</b></button>
-                <button id="login" type="submit" class="btn btn-default">
-                <span class="glyphicon glyphicon-user" aria-hidden="true"> login</span>
-                </button>
-            </form>
-            <div id="midText">
-                <div class="btn-group" role="group" aria-label="...">
-                    <button type="button" class="btn btn-default" id="navT"><div id="navtext1"><b>Home</b></div></button>
-                    <button type="button" class="btn btn-default" id="navT"><div id="navText">Page</div></button>
-                    <button type="button" class="btn btn-default" id="navT"><div id="navText">About</div></button>
-                    <button type="button" class="btn btn-default" id="navT"><div id="navText2">Membership plans</div></button>
+        <div id="TopImg"><img src="imgs/13.png" /></div>
+        <div id="topW">
+            <div class="col-md-1"></div>
+            <div class="col-md-3" id="leftNav">
+                <img class="img11" src="imgs/11.png" />
+            </div>
+            <div class="col-md-7" id="midNav">
+                <form id="search" class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <span id="souSuo" class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        <input id="input" type="text" class="form-control" placeholder="Search Here." />
+                    </div>
+                    <button id="register" type="submit" class="btn btn-default"><b>Register</b></button>
+                    <button id="donate" type="submit" class="btn btn-default"><b>Donate</b></button>
+                    <button id="login" type="submit" class="btn btn-default">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"> login</span>
+                    </button>
+                </form>
+                <div id="midText">
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default" id="navT"><div id="navtext1"><b>Home</b></div></button>
+                        <button type="button" class="btn btn-default" id="navT"><div id="navText">Page</div></button>
+                        <button type="button" class="btn btn-default" id="navT"><div id="navText">About</div></button>
+                        <button type="button" class="btn btn-default" id="navT"><div id="navText2">Membership plans</div></button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-1"></div>
+            <div class="col-md-1">
     </div>
+
     <div id="theme" class="row">
         <img id="themeImg" src="imgs/12.png" />
         <div id="themeText">
@@ -110,21 +56,27 @@
         </div>
         <div>
             <div id="themeBtn">
-                <button id="BrowseDevices" type="submit" class="btn btn-default"><div id="browseDevelopers"><b>Browse Devices</b></div></button>
-                <button id="BrowseDevelopers" type="submit" class="btn btn-default"><div id="browseDevelopers"><b>Browse Developers</b></div></button>
+                <button id="BrowseDevices" type="submit" class="btn btn-default">
+                    <div id="browseDevelopers"><b>Browse Devices</b></div>
+                </button>
+                <button id="BrowseDevelopers" type="submit" class="btn btn-default">
+                    <div id="browseDevelopers"><b>Browse Developers</b></div>
+                </button>
             </div>
         </div>
     </div>
+    </div>
+    </div>
 
     <div id="offer" class="row">
-        <span id="WWO">What We Offer</span>
+        <div id="WWO">What We Offer</div>
         <div id="offImg">
             <div class="col-md-1"></div>
-            <div class="col-md-3" id="offImge">
+            <div class="col-md-3">
                 <img src="imgs/21.png" /></div>
-            <div class="col-md-4" id="offImge">
+            <div class="col-md-4" id="img22">
                 <img src="imgs/22.png" /></div>
-            <div class="col-md-3" id="offImge">
+            <div class="col-md-3">
                 <img src="imgs/23.png" /></div>
             <div class="col-md-1"></div>
         </div>
@@ -136,16 +88,20 @@
             <div id="news1Text">NEWEST STUFF</div>
             <div>
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-default" id="news1btn"><div id="new1Text1">Files</div></button>
+                    <button type="button" class="btn btn-default" id="news1btn">
+                        <div id="new1Text1">Files</div>
+                    </button>
                 </div>
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-default"><div id="new1Text2">Devs</div></button>
+                    <button type="button" class="btn btn-default">
+                        <div id="new1Text2">Devs</div>
+                    </button>
                 </div>
             </div>
             <div>
                 <div id="new111">
                     <div class="col-md-8">
-                        <div id="news1TextBlue">twep-3.0.0-0-Hol-U19.img</div>
+                        <div id="news1TextBlue">twep-3.2.0-0-Hol-U19.img</div>
                         <br/>
                         <div id="news1TextBlack">by WasimRaja</div>
                     </div>
@@ -155,7 +111,7 @@
                 </div>
                 <div id="new222">
                     <div class="col-md-8">
-                        <div id="news1TextBlue">twep-3.0.0-0-Hol-U19.img</div>
+                        <div id="news1TextBlue">TWRP 3.2.0-1_Hol-U19.img</div>
                         <br/>
                         <div id="news1TextBlack">by WasimRaja</div>
                     </div>
@@ -164,61 +120,64 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="col-md-4" id="newsText">
-
             <div id="news1Text">HOTTEST FILES</div>
             <div>
                 <div class="col-md-4">
                     <button type="button" class="btn btn-default" id="news1btn">
-                    <div id="new2Text1">24 hrs</div></button>
+                        <div id="new2Text1">24 hrs</div>
+                    </button>
                 </div>
                 <div class="col-md-4">
                     <button type="button" class="btn btn-default">
-                    <div id="new2Text2">Week</div></button>
+                        <div id="new2Text2">Week</div>
+                    </button>
                 </div>
                 <div class="col-md-4">
                     <button type="button" class="btn btn-default">
-                    <div id="new2Text2">All-time</div></button>
+                        <div id="new2Text2">All-time</div>
+                    </button>
                 </div>
             </div>
             <div>
                 <div id="new111">
                     <div class="col-md-8">
-                        <div id="news1TextBlue1">twep-3.0.0-0-Hol-U19.img</div>
+                        <div id="news1TextBlue1">minimal_adb_fastboot_v1.4.2_setup.exe</div>
                         <br/>
-                        <div id="news1TextBlack">by WasimRaja</div>
+                        <div id="news1TextBlack">by shimp208</div>
                     </div>
                     <div class="col-md-4">
-                        <div id="news1Text67">6 mins ago</div>
+                        <div id="news1Text67">doenloaded 2,985 times</div>
                     </div>
                 </div>
                 <div id="new222">
                     <div class="col-md-8">
-                        <div id="news1TextBlue1">twep-3.0.0-0-Hol-U19.img</div>
+                        <div id="news1TextBlue1">Gcam_4.4.12_MIUI.apk</div>
                         <br/>
-                        <div id="news1TextBlack">by WasimRaja</div>
+                        <div id="news1TextBlack">by xda-developers.com</div>
                     </div>
                     <div class="col-md-4">
-                        <div id="news1Text67">6 mins ago</div>
+                        <div id="news1Text67">downloaded 2,40 times</div>
                     </div>
                 </div>
             </div>
         </div>
-
         <div class="col-md-3" id="newsText">
             <div id="news1Text">HOTTEST DEVS</div>
             <div>
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-default" id="news1btn"><div id="new1Text1">24 hrs</div></button>
+                    <button type="button" class="btn btn-default" id="news1btn">
+                        <div id="new1Text1">24 hrs</div>
+                    </button>
                 </div>
                 <div class="col-md-6">
-                    <button type="button" class="btn btn-default"><div id="new1Text2">Week</div></button>
+                    <button type="button" class="btn btn-default">
+                        <div id="new1Text2">Week</div>
+                    </button>
                 </div>
             </div>
-
             <div>
                 <div id="new111">
                     <div class="col-md-8">
@@ -242,7 +201,6 @@
                 </div>
             </div>
         </div>
-
         <div class="col-md-1"></div>
     </div>
 
@@ -253,9 +211,57 @@
         </div>
     </div>
 
-    <div id="total">
+    <div id="total" class="row">
         <div id="totalText">Total Statistics</div>
         <img id="tatalImg" src="imgs/4.png" />
-</div>
+        <div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2" id="totalDev">
+                <b>Developers<br/>
+                10.460</b>
+            </div>
+            <div class="col-md-2" id="totalFil"><b>Total Files<br/>355,007</b></div>
+            <div class="col-md-2"></div>
+            <div class="col-md-2" id="totalMonth"><b>Monthly Users<br/>3 Million+</b></div>
+            <div class="col-md-2" id="totalDevices"><b>Total Devices<br/>1,156</b></div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <div id="bottom" class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-2" id="boImg">
+           <img src="imgs/51.png" />
+        </div>
+        <div class="col-md-2" id="boTH">
+            <div id="bomCom"><b>COMPANY</b></div><br/>
+            <div id="bomText1"><b>Google</b></div>
+            <div id="bomText2"><b>BaiDu</b></div>
+            <div id="bomText3"><b>XDA</b></div>
+        </div>
+        <div class="col-md-2" id="boTH1">
+         <div id="bomCom"><b>LINKS</b></div><br/>
+            <div id="bomText1"><b>Home</b></div>
+            <div id="bomText2"><b>Gapps</b></div>
+            <div id="bomText3"><b>About</b></div>
+
+        </div>
+        <div class="col-md-2" id="boTH2">
+           <div id="bomCom"><b>DMCA</b></div><br/>
+            <div id="bomText1"><b>DMCA Form</b></div>
+            <div id="bomText2"><b>Join us</b></div>
+            <div id="bomText3"><b>Call us</b></div>
+
+        </div>
+        <div class="col-md-2" id="boBtn">
+
+           <div id="bomComm"><b>COMPANY</b></div><br/><br/>
+           <img id="bomBtn" src="imgs/5.png">
+        </div>
+        <div class="col-md-1">
+
+        </div>
+    </div>
+
 </body>
 </html>
