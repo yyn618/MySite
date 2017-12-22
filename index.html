@@ -31,8 +31,8 @@
                         <span id="souSuo" class="glyphicon glyphicon-search" aria-hidden="true"></span>
                         <input id="input" type="text" class="form-control" placeholder="Search Here." />
                     </div>
-                    <button id="register" type="submit" class="btn btn-default"><b>Register</b></button>
-                    <button id="donate" type="submit" class="btn btn-default"><b>Donate</b></button>
+                    <button id="register" type="button" class="btn btn-default"><b>Register</b></button>
+                    <button id="donate" type="button"class="btn btn-default"><b>Donate</b></button>
                     <button id="login" type="submit" class="btn btn-default">
                         <span class="glyphicon glyphicon-user" aria-hidden="true"> login</span>
                     </button>
@@ -47,37 +47,41 @@
                 </div>
             </div>
             <div class="col-md-1">
-    </div>
+            </div>
 
-    <div id="theme" class="row">
-        <img id="themeImg" src="imgs/12.png" />
-        <div id="themeText">
-            <h1>Free File List Solution For Android Developers</h1>
-        </div>
-        <div>
-            <div id="themeBtn">
-                <button id="BrowseDevices" type="submit" class="btn btn-default">
+            <div id="theme" class="row">
+                <img id="themeImg" src="imgs/12.png" />
+                <div id="themeText">
+                    <h1>Free File List Solution For Android Developers</h1>
+                </div>
+                <div>
+                    <div id="themeBtn">
+                        <button id="BrowseDevices" type="submit" class="btn btn-default">
                     <div id="browseDevelopers"><b>Browse Devices</b></div>
                 </button>
-                <button id="BrowseDevelopers" type="submit" class="btn btn-default">
+                        <button id="BrowseDevelopers" type="submit" class="btn btn-default">
                     <div id="browseDevelopers"><b>Browse Developers</b></div>
                 </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    </div>
-    </div>
 
     <div id="offer" class="row">
+
         <div id="WWO">What We Offer</div>
         <div id="offImg">
             <div class="col-md-1"></div>
             <div class="col-md-3">
-                <img src="imgs/21.png" /></div>
-            <div class="col-md-4" id="img22">
-                <img src="imgs/22.png" /></div>
+                <img id="offImg1" src="imgs/21.png" />
+            </div>
+            <div class="col-md-4">
+                <img id="offImg2" src="imgs/22.png" />
+            </div>
             <div class="col-md-3">
-                <img src="imgs/23.png" /></div>
+                <img id="offImg3" src="imgs/23.png" />
+            </div>
             <div class="col-md-1"></div>
         </div>
     </div>
@@ -231,7 +235,7 @@
     <div id="bottom" class="row">
         <div class="col-md-1"></div>
         <div class="col-md-2" id="boImg">
-           <img src="imgs/51.png" />
+            <img src="imgs/51.png" />
         </div>
         <div class="col-md-2" id="boTH">
             <div id="bomCom"><b>COMPANY</b></div><br/>
@@ -240,14 +244,14 @@
             <div id="bomText3"><b>XDA</b></div>
         </div>
         <div class="col-md-2" id="boTH1">
-         <div id="bomCom"><b>LINKS</b></div><br/>
+            <div id="bomCom"><b>LINKS</b></div><br/>
             <div id="bomText1"><b>Home</b></div>
             <div id="bomText2"><b>Gapps</b></div>
             <div id="bomText3"><b>About</b></div>
 
         </div>
         <div class="col-md-2" id="boTH2">
-           <div id="bomCom"><b>DMCA</b></div><br/>
+            <div id="bomCom"><b>DMCA</b></div><br/>
             <div id="bomText1"><b>DMCA Form</b></div>
             <div id="bomText2"><b>Join us</b></div>
             <div id="bomText3"><b>Call us</b></div>
@@ -255,13 +259,125 @@
         </div>
         <div class="col-md-2" id="boBtn">
 
-           <div id="bomComm"><b>COMPANY</b></div><br/><br/>
-           <img id="bomBtn" src="imgs/5.png">
+            <div id="bomComm"><b>COMPANY</b></div><br/><br/>
+            <img id="bomBtn" src="imgs/5.png">
         </div>
         <div class="col-md-1">
 
         </div>
     </div>
+    <img id="facebook" src="imgs/FaceBook.png">
+    <img id="Twitter" src="imgs/Twitter.png">
 
 </body>
+<script>
+    function huaru() {
+        $("#shareImg").css({
+            "box-shadow": "8px 12px 30px #848484",
+            opacity: 1,
+        });
+
+    };
+
+    function huachu() {
+        $("#shareImg").css({
+            "box-shadow": "none",
+            opacity: 0.9,
+        });
+
+    };
+    $("#shareImg").hover(huaru, huachu);
+
+    function huaru1() {
+        $("#offImg1").css({
+            "box-shadow": "0 1px 10px #848484",
+            opacity: 1,
+        });
+    };
+
+    function huachu1() {
+        $("#offImg1").css({
+            "box-shadow": "none",
+            opacity: 0.8,
+        });
+
+    };
+    $("#offImg1").hover(huaru1, huachu1);
+
+    function huaru2() {
+        $("#offImg2").css({
+            "box-shadow": "0 1px 10px #848484",
+            opacity: 1,
+        });
+    };
+
+    function huachu2() {
+        $("#offImg2").css({
+            "box-shadow": "none",
+            opacity: 0.8
+
+        });
+
+    };
+    $("#offImg2").hover(huaru2, huachu2);
+
+    function huaru3() {
+        $("#offImg3").css({
+            "box-shadow": "0 1px 10px #848484",
+            opacity: 1,
+        });
+    };
+
+    function huachu3() {
+        $("#offImg3").css({
+            "box-shadow": "none",
+            opacity: 0.8
+        });
+
+    };
+    $("#offImg3").hover(huaru3, huachu3);
+
+    function xiahua() {
+        $("#themeImg").animate({
+            top: '45px'
+        });
+    };
+
+    function shanghua() {
+        $("#themeImg").animate({
+            top: '55px'
+        });
+    };
+
+    $("#themeImg").hover(shanghua, xiahua);
+
+    function zuohua() {
+        $("#facebook").animate({
+            right: '-0.1%'
+        });
+    };
+
+    function youhua() {
+        $("#facebook").animate({
+            right: '-5%'
+        });
+    };
+
+    $("#facebook").hover(zuohua, youhua);
+
+    function zuohua1() {
+        $("#Twitter").animate({
+            right: '-0.1%'
+        });
+    };
+
+    function youhua1() {
+        $("#Twitter").animate({
+            right: '-5%'
+        });
+    };
+
+    $("#Twitter").hover(zuohua1, youhua1);
+
+</script>
 </html>

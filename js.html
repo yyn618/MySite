@@ -11,6 +11,7 @@
       <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 </head>
 
 <body>
@@ -109,9 +110,10 @@
   <div id="hezi"  style="width: 300px;height: 300px;background: #ccc;text-align: center;padding: 12px; cursor:pointer">
       <h1 id="wenzi">Example</h1>
   </div>
-  <i class="fa fa-automobile"></i>
 -->
-  <!--
+<!--  <i class="fa fa-automobile"></i>-->
+
+<!--
 <div class="btn btn-danger" >C</div>
 <img id="anniu" src="imgs/13.png"/>
 <div  id="A" style="height: 300px;background: #ccc">AAA</div>
@@ -120,20 +122,37 @@
 <div id="D" style="height: 600px;background: #fff">DDD</div>
 <div id="E" style="height: 700px;background: #aaa">EEE</div>
 -->
+
 <!--   <img id="LingDBtn" src="imgs/lingD.png">-->
-<h1 id="tmr">0</h1>
+<!--<h1 id="tmr">0</h1>-->
+<div>
+    <div id="btna" class="btn btn-primary">按钮A</div>
+    <div id="btnb" class="btn btn-primary">按钮B</div>
+    <div id="btnc" class="btn btn-primary">按钮C</div>
+    <div id="btnd" class="btn btn-primary">按钮D</div>
+    <div id="btne" class="btn btn-primary">按钮E</div>
+        </div>
+    <div id="a" style="height: 300px;width: 100%;background: #CCC">AA</div>
+    <div id="b"style="height: 300px;width: 100%;background: #AAA">BB</div>
+    <div id="c" style="height: 300px;width: 100%;background: #BBB">CC</div>
+    <div id="d" style="height: 300px;width: 100%;background: #DDD">DD</div>
+    <div id="e" style="height: 300px;width: 100%;background: #EEE">EE</div>
 </body>
 
 <script>
-    for (var i = 0;i < 100; i++){
-        var fuzhi = $("#tmr").clone();
-        fuzhi.css({
-            "font-size": "48px",
-            left: i * 5 + "px",
-            top: Math.sin(i * 10) * 100 + "px"
-        });
-        fuzhi.appendTo($("body"));
-    }
+    $("#btnd").click(function(){
+                $(window).scrollTo($("#d"),1000);
+            })
+
+//    for (var i = 0;i < 100; i++){
+//        var fuzhi = $("#tmr").clone();
+//        fuzhi.css({
+//            "font-size": "48px",
+//            left: i * 5 + "px",
+//            top: Math.sin(i * 10) * 100 + "px"
+//        });
+//        fuzhi.appendTo($("body"));
+//    }
 //    $("#LingDBtn").hover(function(){
 //        $("#LingDBtn").attr("src","imgs/LingD1.png");
 //    },function(){
