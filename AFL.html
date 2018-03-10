@@ -2,13 +2,12 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="author" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="xining">
     <title>Android File list</title>
     <link rel="icon" href="imgs/1.png">
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="AFL.css" />
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -17,7 +16,6 @@
 </head>
 
 <body>
-
     <div id="nav" class="row">
         <div id="TopImg"><img src="imgs/13.png" /></div>
         <div id="topW">
@@ -32,19 +30,20 @@
                         <input id="input" type="text" class="form-control" placeholder="Search Here." />
                     </div>
                     <button id="register" type="button" class="btn btn-default"><b>Register</b></button>
-                    <button id="donate" type="button"class="btn btn-default"><b>Donate</b></button>
+                    <button id="donate" type="button" class="btn btn-default"><b>Donate</b></button>
                     <button id="login" type="submit" class="btn btn-default">
-                        <span class="glyphicon glyphicon-user" aria-hidden="true"> login</span>
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"> Login</span>
                     </button>
-                </form>
-                <div id="midText">
-                    <div class="btn-group" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default" id="navT"><div id="navtext1"><b>Home</b></div></button>
-                        <button type="button" class="btn btn-default" id="navT"><div id="navText">Page</div></button>
-                        <button type="button" class="btn btn-default" id="navT"><div id="navText">About</div></button>
-                        <button type="button" class="btn btn-default" id="navT"><div id="navText2">Membership plans</div></button>
+                    <div id="midTexet">
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default" id="navT"><div id="navtext1"><b>Home</b></div></button>
+                            <button type="button" class="btn btn-default" id="navT"><div id="navText">Page</div></button>
+                            <button type="button" class="btn btn-default" id="navT"><div id="navText">About</div></button>
+                            <button type="button" class="btn btn-default" id="navT"><div id="navText2">Plans</div></button>
+                        </div>
                     </div>
-                </div>
+                </form>
+
             </div>
             <div class="col-md-1">
             </div>
@@ -90,7 +89,7 @@
         <div class="col-md-1"></div>
         <div class="col-md-3">
             <div id="news1Text">NEWEST STUFF</div>
-            <div>
+            <div class="nwewstText">
                 <div class="col-md-6">
                     <button type="button" class="btn btn-default" id="news1btn">
                         <div id="new1Text1">Files</div>
@@ -128,7 +127,7 @@
 
         <div class="col-md-4" id="newsText">
             <div id="news1Text">HOTTEST FILES</div>
-            <div>
+            <div class="nwewstText">
                 <div class="col-md-4">
                     <button type="button" class="btn btn-default" id="news1btn">
                         <div id="new2Text1">24 hrs</div>
@@ -170,7 +169,7 @@
         </div>
         <div class="col-md-3" id="newsText">
             <div id="news1Text">HOTTEST DEVS</div>
-            <div>
+            <div class="nwewstText">
                 <div class="col-md-6">
                     <button type="button" class="btn btn-default" id="news1btn">
                         <div id="new1Text1">24 hrs</div>
@@ -218,17 +217,14 @@
     <div id="total" class="row">
         <div id="totalText">Total Statistics</div>
         <img id="tatalImg" src="imgs/4.png" />
-        <div>
-            <div class="col-md-1"></div>
-            <div class="col-md-2" id="totalDev">
-                <b>Developers<br/>
-                10.460</b>
+        <div id="diText">
+            <div id="totalDev">
+                <b>Developers<br/>10.460</b></div>
+            <div>
+                <div id="totalFil"><b>Total Files<br/>355,007</b></div>
+                <div id="totalMonth"><b>Monthly Users<br/>3 Million+</b></div>
             </div>
-            <div class="col-md-2" id="totalFil"><b>Total Files<br/>355,007</b></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-2" id="totalMonth"><b>Monthly Users<br/>3 Million+</b></div>
-            <div class="col-md-2" id="totalDevices"><b>Total Devices<br/>1,156</b></div>
-            <div class="col-md-1"></div>
+            <div id="totalDevices"><b>Total Devices<br/>1,156</b></div>
         </div>
     </div>
 
@@ -378,6 +374,6 @@
     };
 
     $("#Twitter").hover(zuohua1, youhua1);
-
 </script>
+
 </html>
