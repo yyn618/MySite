@@ -31,7 +31,7 @@ body {
 }
 
 #midText {
-    margin-left: 15%;
+    margin-left: 2%;
     position: relative;
     top: 20%;
     text-align: left
@@ -98,11 +98,10 @@ body {
 }
 
 #navtext1 {
-    width: 92px;
+    width: 150px;
     border: 0;
     color: #4eb5e1;
     font-size: 22px;
-    text-align: left;
     position: relative;
     top: -1px;
 }
@@ -117,7 +116,7 @@ body {
 
 #navText2 {
     color: #676767;
-    width: 250px;
+    width: 150px;
     border: 0;
     font-size: 20px;
     border: 0
@@ -187,13 +186,12 @@ body {
     letter-spacing: 10px;
     font-size: 45px;
     color: #585858;
-    width:100%;
+    width: 100%;
     transform: translateY(-30%)
 }
 
 #offImg {
     text-align: center
-
 }
 
 #News {
@@ -210,7 +208,9 @@ body {
 
 #news1Text {
     font-size: 25px;
-    font-family: inherit
+    font-family: inherit;
+    top: 10px;
+    position: relative
 }
 
 #news1btn {
@@ -266,7 +266,7 @@ body {
 
 #new111 {
     position: relative;
-    top: 50px;
+    top: 70px;
 }
 
 #news1Text67 {
@@ -285,7 +285,7 @@ body {
 
 #new222 {
     position: relative;
-    top: 80px;
+    top: 100px;
 }
 
 #news1TextBlue1 {
@@ -320,14 +320,15 @@ body {
     text-align: center;
     height: 250px;
     position: relative;
-    top: 50%;
-    transform: translate(0, 50%);
+    transform: translate(-1.5%, 60%);
     font-size: 45px;
     color: #118dc0;
 }
 
 #total {
     text-align: center;
+    position: relative;
+    top: -100px
 }
 
 #TopImg {
@@ -343,35 +344,35 @@ body {
 
 
 #totalDev {
-    position: relative;
-    top: -375PX;
+    position: absolute;
     color: #118dc0;
     font-size: 25px;
-    left: -24px
+    top: 67%;
+    left: 5%;
 }
 
 #totalFil {
-    position: relative;
-    top: -375PX;
+    position: absolute;
     color: #118dc0;
     font-size: 25px;
-    left: -67px
+    top: 67%;
+    left: 21.1%;
 }
 
 #totalMonth {
-    position: relative;
-    top: -375PX;
+    position: absolute;
     color: #118dc0;
     font-size: 25px;
-    left: 63px
+    top: 67%;
+    left: 66.2%;
 }
 
 #totalDevices {
-    position: relative;
-    top: -375PX;
+    position: absolute;
     color: #118dc0;
     font-size: 25px;
-    left: 15px
+    top: 67%;
+    left: 81.8%;
 }
 
 #bottom {
@@ -380,6 +381,7 @@ body {
     height: 250px;
     background: #363636;
     position: relative;
+    top: 320px
 }
 
 #boImg {
@@ -458,7 +460,6 @@ body {
 #offImg1 {
 
     opacity: 0.5
-
 }
 
 #offImg2 {
@@ -473,15 +474,41 @@ body {
 
 #facebook {
     position: fixed;
-    top:80%;
-    right: -5%;
-        cursor: pointer;
+    top: 80%;
+    right: -6%;
+    cursor: pointer;
 }
 
 #Twitter {
 
     position: fixed;
-    top:87%;
-    right: -5%;
-        cursor: pointer;
+    top: 88%;
+    right: -6.1%;
+    cursor: pointer;
+}
+
+#tatalImg {
+    position: absolute;
+    left: -10.5%;
+}
+
+
+
+#diText {
+
+    margin-left: 2%;
+    position: relative;
+    text-align: left;
+    top: 140px
+}
+
+#midTexet {
+    text-align: center;
+    position: relative;
+    left: -10%
+}
+
+.nwewstText {
+    position: relative;
+    top: 40px
 }
